@@ -1,0 +1,13 @@
+
+        <div class="blog-grid-item">
+            <div class="blog-grid-thumb">
+                <a ng-href="{{info.URL}}">
+                    <img ng-src="./images/news/{{info.Image}}" alt="{{info.Image}}" />
+                </a>
+            </div>
+            <div class="box-content-inner">
+               <div class="box-content-heading"> <h4 class="blog-grid-title"><a ng-href="{{info.URL}}">{{info.Title}}</a></h4></div>
+               <div class="box-content-content"> <p>{{info.Content}}</p> </div>
+                <p class="blog-grid-meta small-text"><span>{{info.Date}}</span>&nbsp;&nbsp; | &nbsp;&nbsp;<span class="box-content-author"> {{info.Author}}</span></p>
+            </div> <!-- /.box-content-inner -->
+       </div> <!-- /.blog-grid-item -->
