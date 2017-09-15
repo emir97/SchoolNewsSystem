@@ -1,0 +1,40 @@
+.contentView{
+  content: '...';
+  max-width:200px;
+  word-wrap:break-word;
+  max-height:100px;
+  overflow:hidden;
+  height:100px;
+  max-width:150px;
+}
+.titleView{
+  content: '...';
+  max-width:150px;
+  word-wrap:break-word;
+  max-height:100px;
+  overflow: hidden;
+}
+.wells-customize{
+  overflow: hidden;
+  word-wrap:break-word;
+  content: "...";
+}
+.notify-content{
+  word-wrap:break-word;
+}
+.zanimanjeImage {
+  width: 100%;
+  height: 200px;
+}
+.zanimanjeImage img {
+  width: 100%;
+  height: 100%;
+}
+.zanimanjeContent {
+  width: 100%;
+  height: 160px;
+  overflow: hidden;
+  word-wrap:break-word;
+  content: '...';
+  margin-top: 10px;
+}
